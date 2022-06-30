@@ -1,3 +1,10 @@
+h1{
+    font-family: monospace;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(0, 0, 77);
+}
+
 #container{
     margin: 50px auto;
     padding: 20px;
@@ -7,6 +14,13 @@
     width: 300px;
     background-color: cornflowerblue;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsToChange{
+    display: flex;
+    justify-content: center;
 }
 
 #num{
@@ -26,12 +40,12 @@ button{
     border-style: solid;
     border-radius: 3px;
     border-color:  rgb(0, 0, 77);
-
+    width: 50%;
 }
 
-h1{
-    font-family: monospace;
-    font-size: 50px;
-    text-align: center;
-    color: rgb(0, 0, 77);
+
+.resetButton{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }

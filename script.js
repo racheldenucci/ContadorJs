@@ -1,6 +1,6 @@
-let mais = document.getElementById('mais');
-let menos = document.getElementById('menos');
-let reset = document.getElementById('reset');
+const mais = document.getElementById('mais');
+const menos = document.getElementById('menos');
+const reset = document.getElementById('reset');
 
 let int = document.getElementById('num');
 let cont = 0;
