@@ -19,3 +19,7 @@ reset.addEventListener('click', function(){
     cont = 0;
     int.innerHTML = cont;
 })
+
+if(cont = '2'){
+    alert("2");
+}
