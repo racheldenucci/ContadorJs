@@ -1,6 +1,8 @@
 const mais = document.getElementById('mais');
 const menos = document.getElementById('menos');
 const reset = document.getElementById('reset');
+const change = document.getElementById('changeColor');
+let container = document.getElementById('container');
 
 let int = document.getElementById('num');
 let cont = 0;
@@ -18,8 +20,10 @@ menos.addEventListener('click', function(){
 reset.addEventListener('click', function(){
     cont = 0;
     int.innerHTML = cont;
+    container.style.backgroundColor = "cornflowerblue";
 })
 
-if(cont = '2'){
-    alert("2");
-}
+change.addEventListener('click', function(){
+    container.style.backgroundColor = "red"; 
+})
+
